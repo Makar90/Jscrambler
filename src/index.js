@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 //import reportWebVitals from './reportWebVitals';
 
-import { deleteMaps } from '../delete-sourcemap'
-
-() => deleteMaps();
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
