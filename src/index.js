@@ -5,7 +5,7 @@ import App from './App';
 
 import { deleteMaps } from '../delete-sourcemap'
 
-deleteMaps();
+() => deleteMaps();
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
